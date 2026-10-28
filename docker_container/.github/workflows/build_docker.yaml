@@ -19,5 +19,5 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          tags: team7_infra:latest
-          push: false # Set to true if you want to push to GitHub Container Registry (ghcr.io)
+          tags: ghcr.io/murthyap63-a11y/team7-h100-env:latest
+          push: true # Set to true if you want to push to GitHub Container Registry (ghcr.io)
